@@ -26,3 +26,7 @@ int main() {
     fork_recursive();
     return 0;
 }
+
+// this code will create a child process and parent process and print number of successful forks in both of them
+// so  if you have other processes running in your system then you will get number of successful forks decreasing for each successful fork
+// but you run only 1 fork process so you will get number of successful forks increasing for each successful fork
